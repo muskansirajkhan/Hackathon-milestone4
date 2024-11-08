@@ -1,0 +1,158 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;  /* Modern font for clarity */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fb;  /* Light greyish background */
+    color: #333;  /* Dark text for readability */
+}
+
+/* Form container */
+form {
+    margin: 20px auto;
+    background-color: #ffffff;  /* White background */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+    padding: 30px;
+    max-width: 600px;  /* Reduced width to make it compact */
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    color: #336699;  /* Blue for title */
+    font-family: 'Roboto', sans-serif;  /* Modern font */
+    font-size: 28px;  /* Smaller size */
+    margin-bottom: 20px;
+}
+
+/* Fieldset Styling */
+fieldset {
+    border: 2px solid #ff4081;  /* Pink border */
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;  /* Reduced margin */
+    background-color: #fbe9f7;  /* Soft pink background */
+}
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    color: #d500f9;  /* Purple for legend */
+}
+
+/* Label Styling */
+label {
+    display: block;
+    margin-top: 10px;
+    color: #2e3d49;
+    font-size: 16px;  /* Slightly smaller font */
+}
+
+/* Input & Textarea Styling */
+input, textarea {
+    margin-top: 8px;
+    padding: 12px;  /* Reduced padding */
+    width: 100%;
+    border: 2px solid #ff4081;  /* Pink border */
+    border-radius: 10px;  /* Slightly rounded corners */
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+input:focus, textarea:focus {
+    border-color: #d500f9;  /* Purple focus border */
+    outline: none;
+}
+
+/* Button Styles */
+button {
+    display: block;
+    width: 100%;
+    background-color: #ff4081;  /* Pink button */
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 16px;  /* Reduced font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #d500f9;  /* Dark purple on hover */
+    transform: translateY(-4px);  /* Lift effect */
+}
+
+/* Resume display styling */
+#resume-display {
+    max-width: 600px;  /* Reduced width for compact view */
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid #ff4081;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    /*making the resume editable*/
+    outline: none;
+}
+
+/* Section Headers in Resume */
+#resume-display h2 {
+    color: #ff4081;  /* Pink for section titles */
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;  /* Slightly smaller size */
+    margin-bottom: 15px;
+}
+
+/* Section Headings */
+h3 {
+    font-weight: bold;
+    font-size: 20px;  /* Slightly smaller size */
+    color: #2d3e50;  /* Dark blue */
+    margin-top: 20px;
+}
+
+/* Paragraphs and text */
+p {
+    font-size: 14px;  /* Smaller font size */
+    line-height: 1.6;
+    color: #555;
+    margin-top: 6px;
+}
+
+/* Personal Information Styling */
+#personal-info p {
+    font-weight: normal;
+    font-size: 14px;  /* Smaller size for personal info */
+    color: #333;
+}
+
+/* Adding hover effects to resume sections */
+#resume-display .section:hover {
+    background-color: #ffebee;  /* Light pink hover */
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Horizontal lines between sections */
+hr {
+    border: 0;
+    border-top: 1px solid #ff4081;  /* Pink line */
+    margin: 15px 0;
+}
+
+/* Padding adjustments */
+input, textarea, button, h1, h2, h3, p {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+
+
+
+
+
